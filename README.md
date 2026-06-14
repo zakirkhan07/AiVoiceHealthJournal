@@ -25,7 +25,6 @@ surface patterns, and a one-tap PDF brings your story to your doctor.
    - `NSHealthShareUsageDescription` — "We read steps, sleep, and heart rate to enrich your insights."
 4. Run, open **Settings** in the app, paste an Anthropic API key. (Without a key, check-ins still save as plain entries — graceful degradation.)
 
-⚠️ **API key note**: the key is stored in UserDefaults and called directly from the device — fine for a demo, never for production. Production design: a thin backend proxy holds the key, authenticates the user, rate-limits, and logs.
 
 ## Architecture
 
