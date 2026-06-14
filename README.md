@@ -4,10 +4,6 @@ A SwiftUI iOS app for people managing chronic symptoms: speak (or type) a daily
 check-in, AI turns it into structured symptom & lifestyle logs, weekly insights
 surface patterns, and a one-tap PDF brings your story to your doctor.
 
-> Built as a portfolio project demonstrating: voice input, on-device speech
-> transcription, LLM integration with real failure handling, HealthKit passive
-> signals, Swift Charts, SwiftData persistence, local notifications, a small
-> design system, analytics instrumentation, and PDF generation.
 
 ## Features
 
